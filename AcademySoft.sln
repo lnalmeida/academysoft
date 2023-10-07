@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{1FB63533-2F6D-409C-9874-9043354A03C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domains", "2.Domains", "{9B91A2BF-E51E-43E3-B28E-0122DEB52A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repositories", "3.Repositories", "{5A1F47FA-7AB1-420B-A13E-D28E229ED713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{181B6004-7308-42C7-9686-FBC63C1623CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1. Data", "4.1. Data", "{CAE5BBBC-B2BA-4A6C-8D03-49C49636BBAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.CrossCulling", "4.2.CrossCulling", "{50C854E4-1661-43AD-A31D-135FDDBB5081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademySoft.Infra.Data", "AcademySoft.Infra.Data\AcademySoft.Infra.Data.csproj", "{B7B6A216-3110-4CD0-BE98-A418CB7BB63E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B6A216-3110-4CD0-BE98-A418CB7BB63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B6A216-3110-4CD0-BE98-A418CB7BB63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B6A216-3110-4CD0-BE98-A418CB7BB63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B6A216-3110-4CD0-BE98-A418CB7BB63E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAE5BBBC-B2BA-4A6C-8D03-49C49636BBAE} = {181B6004-7308-42C7-9686-FBC63C1623CB}
+		{50C854E4-1661-43AD-A31D-135FDDBB5081} = {181B6004-7308-42C7-9686-FBC63C1623CB}
+		{B7B6A216-3110-4CD0-BE98-A418CB7BB63E} = {CAE5BBBC-B2BA-4A6C-8D03-49C49636BBAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {892681E3-A08B-45E6-87CD-D0FEF3245AA7}
